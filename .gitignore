@@ -1,0 +1,27 @@
+# Binarios compilados
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Archivos de entorno y secretos
+.env
+*.local
+
+# Archivos temporales de almacenamiento de videos
+/uploads/*
+!/uploads/.gitkeep
+
+# Base de datos local
+*.db
+*.sqlite
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
